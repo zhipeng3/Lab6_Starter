@@ -3,6 +3,9 @@ class RecipeCard extends HTMLElement {
     // Part 1 Expose - TODO
 
     // You'll want to attach the shadow DOM here
+    super();
+    this.attachShadow({mode:"open"});
+    
   }
 
   set data(data) {
@@ -100,6 +103,84 @@ class RecipeCard extends HTMLElement {
     // created in the constructor()
 
     // Part 1 Expose - TODO
+
+    // pic
+    var img = new Image();
+    img.src = searchForKey(data, "thumbnailUrl");
+    img.alt = searchForKey(data, "headline");
+    card.appendChild(img);
+    
+    // title
+    var title = document.createElement("p");
+    title.className = "title";
+    var title_in = document.createElement("a");
+    title_in.innerText = searchForKey(data, "headline");
+    title_in.setAttribute("href",getUrl(data))
+    //title_in.herf = getUrl(data);
+    title.appendChild(title_in);
+    card.appendChild(title);
+
+    // org
+    var org = document.createElement("p");
+    org.className = "organization";
+    org.innerText = getOrganization(data);
+    card.appendChild(org);
+
+    //rating
+    var rating = document.createElement("div");
+    rating.className = "rating";
+    var find = searchForKey(data, "ratingValue")
+    if(find != undefined){
+      var score = document.createElement("span");
+      var rating_img = new Image();
+      var count = document.createElement("span");
+      score.innerText = find;
+      if(Math.round(find) == 5){
+        rating_img.src = "assets/images/icons/5-star.svg";
+      }
+      else if(Math.round(find) == 4){
+        rating_img.src = "assets/images/icons/4-star.svg";
+      }
+      else if(Math.round(find) == 3){
+        rating_img.src = "assets/images/icons/3-star.svg";
+      }
+      else if(Math.round(find) == 2){
+        rating_img.src = "assets/images/icons/2-star.svg";
+      }
+      else if(Math.round(find) == 1){
+        rating_img.src = "assets/images/icons/1-star.svg";
+      }
+      else{
+      rating_img.src = "assets/images/icons/0-star.svg";
+      }
+      find = searchForKey(data, "ratingCount");
+      count.innerText = find;
+      rating.appendChild(score);
+      rating.appendChild(rating_img);
+      rating.appendChild(count);
+    }
+    else{
+      var score = document.createElement("span");
+      score.innerText = "No Reviews";
+      rating.appendChild(score);
+    }
+    card.appendChild(rating);
+    
+    //time
+    var time = document.createElement("time");
+    var time_find = searchForKey(data,"totalTime");
+    time.innerText = convertTime(time_find);
+    card.appendChild(time);
+
+    //ingredient
+    var ingred = document.createElement("p");
+    ingred.className = "ingredients";
+    var ingred_find = searchForKey(data, "recipeIngredient");
+    ingred.innerText = createIngredientList(ingred_find);
+    card.appendChild(ingred);
+
+    this.shadowRoot.appendChild(card);
+    this.shadowRoot.append(styleElem);
   }
 }
 

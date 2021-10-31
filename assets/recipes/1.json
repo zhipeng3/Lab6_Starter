@@ -1,0 +1,306 @@
+{
+    "@context": "http://schema.org",
+    
+    "@type": ["Recipe"]
+    ,"headline": "Perfect Pie Crust"
+    ,"datePublished": "2005-06-01T15:14:24.000-04:00"
+    ,"dateModified": "2021-06-19T15:45:59.183-04:00"
+    ,"author": [
+    {"@type": "Person"
+    ,"name": "Elise Bauer"
+    ,"description": "Elise founded Simply Recipes in 2003 and led the site until 2019. She has an MA in Food Research from Stanford University."
+    ,"jobTitle": "Founder"
+    ,"sameAs": [
+    "https://www.instagram.com/elisebauer/",
+    "https://www.simplyrecipes.com/elise-bauer-5091824"
+    ]
+    ,"knowsAbout": ["Scratch cooking with whole ingredients"]
+    ,"alumniOf": [
+    {
+    "@type": "Organization",
+    "Name": "Stanford University: BS in Environmental Science; MA in Food Research; MBA from the Graduate School of Business "
+    }
+    ]
+    }
+    ]
+    ,"description": "Intimidated by pie dough? This flaky pie crust recipe walks you through every step for the perfect pie. Use all butter or a combo of butter and shortening. Plus learn how to blind-bake a pie crust."
+    ,"image": [
+    {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/zK65TLFWN71SLtI_Hr42MdPZLh0=/5206x2928/smart/filters:no_upscale()/Simply-Recipes-Perfect-Pie-Crust-LEAD-14-51d8f1c8f13246cf8a5bae8f2d5afbbe.jpg",
+    "height": 2928,
+    "width": 5206
+    },
+    {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/90dyPR0MZ92894uvAvfy-ysMOGE=/4628x3471/smart/filters:no_upscale()/Simply-Recipes-Perfect-Pie-Crust-LEAD-14-51d8f1c8f13246cf8a5bae8f2d5afbbe.jpg",
+    "height": 3471,
+    "width": 4628
+    },
+    {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/owWc-wwXm5V7pTetzCSKvEZSdUQ=/3471x3471/smart/filters:no_upscale()/Simply-Recipes-Perfect-Pie-Crust-LEAD-14-51d8f1c8f13246cf8a5bae8f2d5afbbe.jpg",
+    "height": 3471,
+    "width": 3471
+    }
+    ]
+    ,"video": {
+    "@type": "VideoObject",
+    "contentUrl": "https://cdn.jwplayer.com/videos/gzhfE2Ry-qP58AAan.mp4",
+    "description": "Several pie crust recipes—an all butter pie crust, or pate brisee, an all butter crust with almonds, combining butter and shortening crust, and how to pre-bake or blind-bake a pie crust.",
+    "duration": "PT1M38S",
+    "name": "Perfect Pie Crust",
+    "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/gzhfE2Ry/poster.jpg?width=720",
+    "uploadDate": "2021-01-21T02:59:28.987Z"}
+    ,"publisher": {
+    "@type": "Organization",
+    "name": "Simply Recipes",
+    "url": "https://www.simplyrecipes.com",
+    "logo": {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/QvixEwCD02s_lnkgkVb6mHwKS7c=/1125x320/filters:no_upscale():max_bytes(150000):strip_icc()/SimplyRecipesLogoTransparent-07a297c54b2142ae9c079abb2f0fa639.png",
+    "width": 1125,
+    "height": 320
+    },
+    "brand": "Simply Recipes"
+    , "publishingPrinciples": "https://www.simplyrecipes.com/about-us-5096129#editorial-guidelines"
+    }
+    ,"name": "Perfect Pie Crust"
+    ,"aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.3",
+    "ratingCount": "173"
+    }
+    ,"keywords": "Baking, Pie, Pie Crust, Pie Dough, American, Dessert"
+    ,"nutrition": {
+    "@type": "NutritionInformation"
+    ,"calories": "370 kcal"
+    ,"carbohydrateContent": "31 g"
+    ,"cholesterolContent": "109 mg"
+    ,"fiberContent": "1 g"
+    ,"proteinContent": "5 g"
+    ,"saturatedFatContent": "15 g"
+    ,"sodiumContent": "279 mg"
+    ,"sugarContent": "1 g"
+    ,"fatContent": "25 g"
+    ,"unsaturatedFatContent": "0 g"
+    }
+    ,"prepTime": "PT75M"
+    , "recipeCategory": ["Dessert","Baking","Pie","Pie Crust","Pie Dough"]
+    ,"recipeCuisine": ["American"]
+    ,"recipeIngredient": [
+    "2 1/2 cups all-purpose flour, plus extra for rolling",
+    "1 cup (2 sticks or 8 ounces) unsalted butter, very-cold, cut into 1/2 inch cubes",
+    "1 teaspoon salt",
+    "1 teaspoon sugar",
+    "6 to 8 tablespoons ice water" ]
+    ,"recipeInstructions": [
+    {
+    "@type": "HowToSection",
+    "name": "Steps to Make It",
+    "itemListElement": [
+    {
+    "@type": "HowToStep"
+    ,"text": "Mix the flour, sugar, and salt: Put flour, sugar, and salt into the bowl of a food processor and pulse a couple times to mix."
+    } ,{
+    "@type": "HowToStep"
+    ,"image": {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/nNcfZ5u0GpCzTukYboE5XMpW7EM=/3000x2000/filters:no_upscale()/Simply-Recipes-Perfect-Pie-Crust-METHOD-03-641ca5bc358d43c192ba3f2f779b0ec2.jpg",
+    "height": 2000,
+    "width": 3000
+    }
+    ,"text": "Add the butter, half at a time, pulsing several times after each addition: Add about half of the butter to the food processor and pulse several times. Then add the rest of the butter and pulse 6 to 8 times until the largest pieces of butter are about the size of large peas."
+    } ,{
+    "@type": "HowToStep"
+    ,"image": {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/5tWkMQHGaMaYTZGlfdb6Lgy3rS4=/3000x2000/filters:no_upscale()/Simply-Recipes-Perfect-Pie-Crust-METHOD-05-48d7bbfcac0f4d31b1e601d99be56bba.jpg",
+    "height": 2000,
+    "width": 3000
+    }
+    ,"text": "Slowly add the ice water: Sprinkle the mixture with 4 tablespoons of the ice water (make sure there are no ice cubes in the water!) and pulse again. Then add more ice water, a tablespoon at a time, pulsing once or twice after each addition until the dough just barely begins to hold together. You may not need all the water. The mixture is ready when a small handful of the crumbly dough holds together when you pinch it with your fingers."
+    } ,{
+    "@type": "HowToStep"
+    ,"image": {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/JnrDj8D_BcD9bYN-e3fXmPJ7UeY=/3000x2000/filters:no_upscale()/Simply-Recipes-Perfect-Pie-Crust-METHOD-06-89fdf9cff53b4701b8ba71439c5dfd37.jpg",
+    "height": 2000,
+    "width": 3000
+    }
+    ,"text": "Make two dough discs: Carefully empty the crumbly dough mixture from the food processor on to a clean, dry, flat surface. Gather the mixture in a mound. Divide the dough mixture into two even-sized mounds. Use your hands and knead each mound just enough to form each one into a disc. Do not over-knead! Kneading develops gluten which will toughen the dough, not something you want in a pastry crust. You should just knead enough so that the dough holds together without cracks. If you started with cold butter you should be able to see small chunks of butter speckling the dough. This is a good thing. These small bits of butter will spread out into layers as the crust cooks so you have a flaky crust! Sprinkle each disc with a little flour, wrap each one in plastic wrap, and refrigerate for one hour or up to 2 days."
+    } ,{
+    "@type": "HowToStep"
+    ,"text": "Remove dough from refrigerator and let sit for a few minutes: Remove one crust disc from the refrigerator. Let sit at room temperature for 5-10 minutes in order to soften just enough to make rolling out a bit easier."
+    } ,{
+    "@type": "HowToStep"
+    ,"image": {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/-ifuH8uYIjNEq4tMazns1mQbTHg=/3000x2000/filters:no_upscale()/Simply-Recipes-Perfect-Pie-Crust-METHOD-09-04319787a5ed4cde8cc1635ec0fbaef8.jpg",
+    "height": 2000,
+    "width": 3000
+    }
+    ,"text": "Roll out dough, place in pie dish: Roll out with a rolling pin on a lightly floured surface to a 12-inch circle; about 1/8 of an inch thick. As you roll out the dough, check if the dough is sticking to the surface below. If necessary, add a few sprinkles of flour under the dough to keep the dough from sticking. Carefully place onto a 9-inch pie plate. Gently press the pie dough down so that it lines the bottom and sides of the pie plate. Use a pair of kitchen scissors to trim the dough to within 1/2 inch of the edge of the pie dish."
+    } ,{
+    "@type": "HowToStep"
+    ,"image": {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/LCNfKGDKSWnZi85K_yA62r8xEgU=/3000x2000/filters:no_upscale()/Simply-Recipes-Perfect-Pie-Crust-METHOD-10-8871d305d0724eccab0dfdfdd29e8cfe.jpg",
+    "height": 2000,
+    "width": 3000
+    }
+    ,"text": "Add filling to the pie"
+    } ,{
+    "@type": "HowToStep"
+    ,"image": {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/2ZTUAgzg5Iuqi0UduKlU-Qey3Xo=/3000x2000/filters:no_upscale()/Simply-Recipes-Perfect-Pie-Crust-METHOD-14-65315485e3144309a9dabb1b662b5c29.jpg",
+    "height": 2000,
+    "width": 3000
+    }
+    ,"text": "Roll out second disc, place on top of filling: Roll out second disc of dough, as before. Gently place onto the top of the filling in the pie. Trim excess dough with kitchen shears, leaving a 3/4 inch overhang. Fold the edge of the top piece of dough over and under the edge of the bottom piece of dough, pressing together. Flute edges using thumb and forefinger or press with a fork. Score the top of the pie with four 2-inch long cuts, so that steam from the cooking pie can escape."
+    } ]
+    },
+    {
+    "@type": "HowToSection",
+    "name": "How to Pre-Bake a Pie Crust",
+    "itemListElement": [
+    {
+    "@type": "HowToStep"
+    ,"text": "Freeze the crust it for at least a half hour: until chilled. This is an important step in pre-baking. Otherwise the crust will slip down the sides. Preheat your oven to 350°F."
+    } ,{
+    "@type": "HowToStep"
+    ,"text": "Line pie crust with aluminum foil: When the pie crust is sufficiently chilled, line the pie crust with aluminum foil. Let the foil extend over by a few inches on two sides to make it easier to lift to remove the pie weights when the baking is done."
+    } ,{
+    "@type": "HowToStep"
+    ,"text": "Fill with pie weights: Fill the crust to the top with pie weights - dry beans, rice, or sugar. (Sugar works best.)"
+    } ,{
+    "@type": "HowToStep"
+    ,"text": "Bake: Bake at 350°F for 45-50 minutes if making a crust for a pie that will require further cooking, for example a quiche. Bake for 60 to 75 minutes if making a crust for a pie that you don&#39;t need to bake further."
+    } ,{
+    "@type": "HowToStep"
+    ,"text": "Cool completely before filling: You may need to tent the edges of the pie with aluminum foil when you bake your pie, to keep the edges from getting too dried out and burnt. See more detailed instructions and photos for how to blind bake a crust here ."
+    } ]
+    },
+    {
+    "@type": "HowToSection",
+    "name": "Combination Butter and Shortening Crust",
+    "itemListElement": [
+    {
+    "@type": "HowToStep"
+    ,"text": "Make the dough: Combine flour, salt, and sugar in a food processor; pulse to mix. Add the butter and pulse 4 times. Add shortening in tablespoon sized chunks, and pulse 4 more times. The mixture should resemble coarse cornmeal, with butter bits no bigger than peas. Sprinkle 6 tablespoons of ice water over flour mixture. Pulse a couple times. If you pinch some of the crumbly dough and it holds together, it&#39;s ready. If the dough doesn&#39;t hold together, keep adding water, a teaspoon at a time, pulsing once after each addition, until the mixture just begins to clump together."
+    } ,{
+    "@type": "HowToStep"
+    ,"text": "Form discs: Remove dough from machine and place in a mound on a clean surface. Divide the dough into 2 balls and flatten each into 4 inch wide disks. Do not over-knead the dough! Dust the discs lightly with flour, wrap each in plastic, and refrigerate for at least an hour, or up to 2 days before rolling out."
+    } ,{
+    "@type": "HowToStep"
+    ,"text": "Roll out the dough: After the dough has chilled in the refrigerator for an hour, you can take it out to roll. If it is too stiff, you may need to let it sit for 5-10 minutes at room temperature before rolling. Sprinkle a little flour on a flat, clean work surface and on top of the disc of dough you intend to roll out. (We use a Tupperware pastry sheet that has the pie circles already marked.) Using a rolling pin, apply light pressure while rolling outwards from the center of the dough. Every once in a while you may need to gently lift under the dough (a pastry scraper works great for this) to make sure it is not sticking. You have a big enough piece of dough when you place the pie tin or pie dish upside down on the dough and the dough extends by at least 2 inches all around."
+    } ,{
+    "@type": "HowToStep"
+    ,"text": "Place into pie dish: When the dough has reached the right size, gently fold it in half. Lift up the dough and place it so that the folded edge is along the center line of the pie dish. Gently unfold. Do not stretch the dough."
+    } ,{
+    "@type": "HowToStep"
+    ,"text": "If single crust pie: trim edges: If you are only making a single crust pie, use a pair of kitchen scissors to trim the dough to within 1/2 inch of the lip of the dish. Tuck the overhang underneath itself along the edge of the pie dish. Use your fingers in a pinching motion, or the tines of a fork to crimp the edge of the pie crust."
+    } ,{
+    "@type": "HowToStep"
+    ,"text": "If making double crust pie: roll the second crust: If you are making a double crust pie, roll out the second disc of dough. Gently place onto the top of the filling in the pie. Use a kitchen scissors to trim the overhang to an inch over. Fold the edge of the top piece of dough over and under the edge of the bottom piece of dough, pressing together. Finish the double crust by pressing against the edges of the pie with your finger tips or with a fork."
+    } ,{
+    "@type": "HowToStep"
+    ,"text": "Make vents in the top: Use a sharp knife to cut vents into the top of the pie crust, so the steam has a place to escape while the pie is cooking. Before scoring, you may want to paint the top of your crust with an egg wash (this will make a nice finish)."
+    } ]
+    },
+    {
+    "@type": "HowToSection",
+    "name": "Egg Wash",
+    "itemListElement": [
+    {
+    "@type": "HowToStep"
+    ,"text": "Beat egg yolk with cream and brush on the surface of the pie with a pastry brush."
+    } ]
+    } ]
+    ,"recipeYield": "8"
+    ,"totalTime": "PT75M"
+    ,"review": [
+    {
+    "@type": "Review",
+    "author": {
+    "@type": "Person",
+    "name": "Concetta M Christensen"
+    },
+    "reviewBody": "There's no better pie crust than this one. I quit looking a long time ago. It is simply the best."
+    }
+    ,
+    {
+    "@type": "Review",
+    "author": {
+    "@type": "Person",
+    "name": "Lisa Alarid Dominguez"
+    },
+    "reviewBody": "Thank you for the recipe the pie crust came out perfect can't wait to try it, it’s baking now, I followed the directions exactly except added maybe two more tablespoons of ice water"
+    }
+    ,
+    {
+    "@type": "Review",
+    "author": {
+    "@type": "Person",
+    "name": "Chana Rachel Weinberg"
+    },
+    "reviewBody": "I loved this pie crust recipe and substituted the normal flour to Rye for my beloved Fiancee.\n\nI used it for the 'BEST' lemon Meringue recipe on your site. I think it would make sense to use 3/4 of the dough for the pie base ( not only half as this recipe says and saving the other half for a pie top which the Meringue doesn't require).\n\nI wish this recipe could also be modified just for a lemon Meringue pie which doesn't require the pie top."
+    }
+    ,
+    {
+    "@type": "Review",
+    "author": {
+    "@type": "Person",
+    "name": "LynnRichins"
+    },
+    "reviewBody": "Another newbie here --- I'm not finding a baking time/temp"
+    }
+    ,
+    {
+    "@type": "Review",
+    "author": {
+    "@type": "Person",
+    "name": "Courtney Kelsch"
+    },
+    "reviewBody": "Baking newbie here... Do I coat the pie pan with a non-stick spray first?"
+    }
+    ]
+    ,"mainEntityOfPage": {
+    "@type": ["WebPage"]
+    ,"@id": "https://www.simplyrecipes.com/recipes/perfect_pie_crust/"
+    ,"breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+    {
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+    "@id": "https://www.simplyrecipes.com/dessert-recipes-by-type-5091493",
+    "name": "Desserts By Type"
+    }
+    }
+    ,
+    {
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+    "@id": "https://www.simplyrecipes.com/pastry-recipes-5091447",
+    "name": "Pastries"
+    }
+    }
+    ,
+    {
+    "@type": "ListItem",
+    "position": 3,
+    "item": {
+    "@id": "https://www.simplyrecipes.com/recipes/perfect_pie_crust/",
+    "name": "Perfect Pie Crust"
+    }
+    }
+    ]
+    }
+    }
+    , "about": [
+    ]		
+    }

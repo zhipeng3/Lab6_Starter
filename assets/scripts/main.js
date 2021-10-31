@@ -5,7 +5,10 @@
 const recipes = [
   'https://introweb.tech/assets/json/ghostCookies.json',
   'https://introweb.tech/assets/json/birthdayCake.json',
-  'https://introweb.tech/assets/json/chocolateChip.json'
+  'https://introweb.tech/assets/json/chocolateChip.json',
+  'assets/recipes/1.json',
+  'assets/recipes/2.json',
+  'assets/recipes/3.json',
 ];
 
 // Once all of the recipes that were specified above have been fetched, their
@@ -43,6 +46,25 @@ async function fetchRecipes() {
     // in the recipes folder and fetch them from there. You'll need to add their paths to the recipes array.
 
     // Part 1 Expose - TODO
+    for(let i=0; i<recipes.length; i++){
+      fetch(recipes[i])
+        .then(fet => {
+          return fet.json();
+        })
+        .then(data => {
+          recipeData[recipes[i]] = data;
+          if(Object.keys(recipeData).length == recipes.length){
+            resolve(true);
+          }
+        })
+        .catch((e) => {reject(false);})
+    }
+    // if(Object.keys(recipeData).length == recipes.length){
+    //   resolve(true);
+    // }
+    // else{
+    //   reject(false);
+    // }
   });
 }
 
@@ -54,6 +76,12 @@ function createRecipeCards() {
   // show any others you've added when the user clicks on the "Show more" button.
 
   // Part 1 Expose - TODO
+  for(let i=0; i<3; i++){
+    var card = document.createElement("recipe-card");
+    card.data = recipeData[recipes[i]];
+    var main = document.querySelector("main");
+    main.appendChild(card);
+  }
 }
 
 function bindShowMore() {
@@ -65,4 +93,23 @@ function bindShowMore() {
   // in the recipeData object where you stored them/
 
   // Part 2 Explore - TODO
+
+  var button = document.querySelector("button");
+  button.addEventListener("click", function() {
+    var main = document.querySelector("main");
+    if(main.childElementCount < 4){
+      for(let i=3; i<6; i++){
+        var card = document.createElement("recipe-card");
+        card.data = recipeData[recipes[i]];
+        main.appendChild(card);
+        button.innerText = "Show less";
+      }
+    }
+    else{
+      while(main.childElementCount > 3){
+        main.removeChild(main.lastChild);
+      }
+      button.innerText = "Show more";
+    }
+  });
 }
